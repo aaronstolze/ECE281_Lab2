@@ -28,4 +28,8 @@ Lab 2 Repository
 
 ![alt text](https://raw.github.com/aaronstolze/ECE281_Lab2/master/Waveform.PNG "Testbench Simulation")
 
+# Prelab Analysis
+
+The waveform simulation matches the truth table created ensuring that the simulation was coded correctly.
+
 
