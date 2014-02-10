@@ -16,6 +16,16 @@ Lab 2 Repository
 |1|1|0|0|1|
 |1|1|1|1|1|
 
+# Boolean Expressions
+
+![alt text](https://raw.github.com/aaronstolze/ECE281_Lab2/master/BooleanExpressions.jpg "Testbench Simulation")
+
+# Schematic 
+
+![alt text](https://raw.github.com/aaronstolze/ECE281_Lab2/master/Schematic.jpg "Circuit Schematic")
+
 # Testbench Simulation Waveform 
 
 ![alt text](https://raw.github.com/aaronstolze/ECE281_Lab2/master/Waveform.PNG "Testbench Simulation")
+
+
