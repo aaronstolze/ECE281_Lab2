@@ -37,7 +37,7 @@ entity Four_Bit_Adder is
 			  Cout : out STD_LOGIC);
 end Four_Bit_Adder;
 
-architecture Strucutural of Four_Bit_Adder is
+architecture Structural of Four_Bit_Adder is
 
 component Full_Adder is
 	port (Ain: in STD_LOGIC;
@@ -46,22 +46,22 @@ component Full_Adder is
 			S: out STD_LOGIC;
 			Cout: out STD_LOGIC);
 			
-signal X,Y,Z : STD_LOGIC;
+
 
 end component Full_Adder
 
-
+signal X, Y, Z : STD_LOGIC;
 
 begin
 
 Bit0: Full_Adder
 	port map (Ain(0), Bin(0), Cin, S(0), X);
 Bit1: Full_Adder
-	port map (Ain(1), Bin(1), Cin, S(1), Y);
+	port map (Ain(1), Bin(1), X, S(1), Y);
 Bit2: Full_Adder
-	port map (Ain(2), Bin(2), Cin, S(2), Z);
+	port map (Ain(2), Bin(2), Y, S(2), Z);
 Bit3: Full_Adder
-	port map (Ain(3), Bin(3), Cin, S(3), Cout);
+	port map (Ain(3), Bin(3), Z, S(3), Cout);
 	
 				 
 
