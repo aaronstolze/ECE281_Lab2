@@ -32,4 +32,7 @@ Lab 2 Repository
 
 The waveform simulation matches the truth table created ensuring that the simulation was coded correctly.
 
+# Analysis
+
+I could not get the four bit adder to code to successfully simulate the waveform.  There seemed to be a problem with the adders combining together so more debugging will have to be done.   
 
