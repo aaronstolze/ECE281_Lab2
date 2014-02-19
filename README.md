@@ -38,5 +38,5 @@ The waveform simulation matches the truth table created ensuring that the simula
 
 # Analysis
 
-I could not get the four bit adder to code to successfully simulate the waveform.  There seemed to be a problem with the adders combining together so more debugging will have to be done.   
+The combination of the adders to create a four-bit adder was the goal of this project.  The VHDL code in the module shows the combination of the four full adders in order to make a complete four-bit adder.  A testbench was then created which will run through all the combinations of the newly created multiplexer.  A .ucf file was then created which was used to implement the code onto the NEXYS2 board.    
 
